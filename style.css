@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.name{
+    color: brown;
+}
+
+.hello {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.hello img {
+    width: 80%;
+}
