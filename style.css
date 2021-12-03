@@ -50,7 +50,7 @@ h1 {
     padding-right: 7%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background: linear-gradient(90deg, rgba(115,40,16,1) 0%, rgba(233,85,19,1) 100%);
+    background: linear-gradient(90deg, rgba(255,95,95,1) 0%, rgba(255,102,37,1) 100%);
 }
 
 .midpart  {
@@ -58,7 +58,6 @@ h1 {
     float: left;
     margin-left: 5%;
     padding-right: 2%;
-    padding-top: %;
 }
 
 .midpart img {
@@ -68,3 +67,87 @@ h1 {
     width: 80%;
 }
 
+.midpart p {
+    text-align: justify;
+    color: rgb(70, 69, 69);
+    margin-bottom: 4%;
+}
+
+.midpart a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: linear-gradient(45deg, rgba(204,105,105,1) 0%, rgba(255,41,41,1) 100%);
+}
+
+.middle {
+    background-image:url(Image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area {
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience h1 {
+    margin-left: 2%;
+}
+
+.experience h2{
+    font-size: 25pt;
+    color: brown;
+}
+
+.experience p {
+    padding-right: 5%;
+    color: rgb(70, 69, 69);
+}
+
+.ex1 {
+    text-align: justify;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.ex2 {
+    text-align: justify;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.exback{
+    box-shadow: 10px 10px 40px gray;
+    height: 250px;
+}
+
+#left-back2 {
+    border-left: 7px solid ;
+    border-image: linear-gradient(90deg, rgba(255,95,95,1) 0%, rgba(255,102,37,1) 100%);
+    border-image-slice: 1;
+}
+
+#left-back1 {
+    border-left: 7px solid ;
+    border-image: linear-gradient(45deg, rgb(76, 45, 218) 0%, rgb(44, 113, 153) 100%);
+    border-image-slice: 1;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
